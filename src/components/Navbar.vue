@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <md-toolbar md-elevation="0">
-      <h3 class="md-title" style="flex: 1">Darren Xu</h3>
+      <h3 class="md-title" style="flex: 1"></h3>
       <md-button v-for="link in links" :key="link.to" class="md-raised md-primary">
         <router-link :to="link.to">{{link.text}}</router-link>
       </md-button>
