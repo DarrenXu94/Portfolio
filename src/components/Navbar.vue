@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <md-toolbar md-elevation="0">
-      <h3 class="md-title" style="flex: 1"></h3>
+    <md-toolbar md-elevation="0" style="display:flex; justify-content: center;">
+      <h3 class="md-title md-small-hide" style="flex: 1"></h3>
       <router-link v-for="link in links" :key="link.to" :to="link.to" tag="md-button">{{link.text}}</router-link>
     </md-toolbar>
   </div>
