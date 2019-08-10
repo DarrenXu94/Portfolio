@@ -2,9 +2,7 @@
   <div id="nav">
     <md-toolbar md-elevation="0">
       <h3 class="md-title" style="flex: 1"></h3>
-      <md-button v-for="link in links" :key="link.to" class="md-raised md-primary">
-        <router-link :to="link.to">{{link.text}}</router-link>
-      </md-button>
+      <router-link v-for="link in links" :key="link.to" :to="link.to" tag="md-button">{{link.text}}</router-link>
     </md-toolbar>
   </div>
 </template>
@@ -24,7 +22,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 #nav {
-  a {
+  button {
     text-decoration: none;
     font-weight: bold;
     color: #737373de;
