@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <background></background>
     <div class="content">
       <router-view />
     </div>
@@ -10,23 +9,22 @@
 
 <script>
 import Navbar from "@/components/Navbar.vue";
-import Background from "@/components/Background.vue";
 
 export default {
   components: {
-    Navbar,
-    Background
+    Navbar
   }
 };
 </script>
 
 
 <style lang="scss">
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: auto;
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 </style>

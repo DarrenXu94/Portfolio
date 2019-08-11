@@ -17,7 +17,10 @@ export default {
   button {
     background-color: white;
   }
+  position: absolute;
   text-align: center;
   color: white;
+  left: 50%;
+  transform: translate(-50%, 150%);
 }
 </style>
