@@ -3,7 +3,8 @@ const projects = [
         name: "blah",
         preview: "",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque velit fugiat facilis dolorum repellendus minima?",
-        link: "blah"
+        link: "blah",
+        imgLink: require("./projects/hero.jpg")
     },
     {
         name: "blah2",

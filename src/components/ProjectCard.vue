@@ -2,7 +2,7 @@
   <div class="project-card md-layout-item md-size-45 md-small-size-100">
     <md-card md-with-hover>
       <md-card-media>
-        <img src="@/assets/hero.jpg" alt="hero" />
+        <img :src="project.imgLink ? project.imgLink : require('@/assets/hero.jpg')" alt="hero" />
       </md-card-media>
       <md-card-header>
         <div class="md-title">{{project.name}}</div>
