@@ -63,6 +63,9 @@
           </ul>
         </div>
       </div>
+      <footer>
+        <p>Darren Xu © 2019</p>
+      </footer>
     </div>
   </div>
 </template>
@@ -130,5 +133,11 @@ export default {
 .maxWidth960 {
   max-width: 960px;
   margin: auto;
+}
+
+footer {
+  background-color: #021623;
+  color: white;
+  padding: 2.2rem;
 }
 </style>
