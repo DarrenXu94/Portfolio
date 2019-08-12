@@ -102,10 +102,10 @@ export default {
     text-align: left;
     // max-width: 300px;
   }
-}
 
-.md-icon {
-  color: white !important;
+  .md-icon {
+    color: white !important;
+  }
 }
 
 #large-size {

@@ -35,6 +35,7 @@ export default {
   padding-top: 2vh;
   padding-left: 2vh;
   padding-right: 2vh;
+  margin-bottom: 20px;
 }
 .projects {
   justify-content: center;

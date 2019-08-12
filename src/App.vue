@@ -22,6 +22,7 @@ body {
   background-color: #021623 !important;
   height: 100%;
 }
+
 #app {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
