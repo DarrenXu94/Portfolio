@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 html,
 body {
-  background-color: #021824 !important;
+  background-color: #021623 !important;
   height: 100%;
 }
 #app {
