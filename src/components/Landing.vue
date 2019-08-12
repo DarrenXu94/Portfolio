@@ -5,7 +5,7 @@
       <p>Software Developer</p>
       <md-button v-scroll-to="'#element'" class="md-primary md-raised">See more</md-button>
     </div>
-    <div id="element" class="container more-info maxWidth960 padTop15">
+    <div id="element" class="container more-info maxWidth960 padTop25">
       <h2>Info About Me</h2>
       <div class="md-layout align-center">
         <div class="md-layout-item md-size-33 md-medium-size-33 md-small-hide">
@@ -22,10 +22,16 @@
             <br />I have a strong understanding of JavaScript with experience in both front end React applications and back end Node Express APIs.
           </p>
         </div>
+        <div id="showOnSmall" style="display:flex; width:100%;justify-content:center;">
+          <md-button v-scroll-to="'#technologies'" class="md-primary md-raised">Technologies</md-button>
+        </div>
       </div>
     </div>
     <div id="technologies">
-      <div class="md-layout maxWidth960 padTop15">
+      <div class="md-layout maxWidth960 padTop25">
+        <div class="info-item md-layout-item md-size-100">
+          <h2>Technologies</h2>
+        </div>
         <div
           class="info-item md-layout-item md-size-33 md-medium-size-33 md-small-size-100 md-xsmall-size-100"
         >
@@ -86,8 +92,8 @@ export default {
   transform: translate(-50%, 150%);
 }
 
-.padTop15 {
-  padding-top: 15px;
+.padTop25 {
+  padding-top: 25px;
 }
 
 .more-info {
@@ -97,6 +103,7 @@ export default {
   text-align: center;
   position: relative;
   top: 100vh;
+  padding-bottom: 70px;
   p {
     // white-space: pre-wrap;
     text-align: left;
@@ -114,6 +121,8 @@ export default {
 
 .align-center {
   align-items: center;
+  max-width: 80%;
+  margin: auto;
 }
 #technologies {
   position: relative;
@@ -139,5 +148,14 @@ footer {
   background-color: #021623;
   color: white;
   padding: 2.2rem;
+}
+
+#showOnSmall {
+  display: none !important;
+}
+@media only screen and (max-width: 600px) {
+  #showOnSmall {
+    display: block !important;
+  }
 }
 </style>
