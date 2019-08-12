@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <div class="content">
-      <router-view />
-    </div>
+    <router-view />
   </div>
 </template>
 
@@ -19,13 +17,19 @@ export default {
 
 
 <style lang="scss">
+html,
 body {
+  background-color: #021824 !important;
+  height: 100%;
+}
+#app {
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  // background-attachment: fixed;
 }
 @import "~vue-material/dist/theme/engine"; // Import the theme engine
 
