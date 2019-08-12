@@ -26,7 +26,42 @@
     </div>
     <div id="technologies">
       <div class="md-layout maxWidth960 padTop15">
-        <div class="md-layout-item">Item</div>
+        <div
+          class="info-item md-layout-item md-size-33 md-medium-size-33 md-small-size-100 md-xsmall-size-100"
+        >
+          <font-awesome-icon icon="chalkboard-teacher" size="6x" />
+          <ul>
+            <li>React</li>
+            <li>Vue</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>ES6</li>
+          </ul>
+        </div>
+        <div
+          class="info-item md-layout-item md-size-33 md-medium-size-33 md-small-size-100 md-xsmall-size-100"
+        >
+          <font-awesome-icon icon="server" size="6x" />
+          <ul>
+            <li>NodeJS + Express</li>
+            <li>Python + Flask</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>Elasticsearch Kibana Logstash</li>
+            <li>Apache configuration</li>
+          </ul>
+        </div>
+        <div
+          class="info-item md-layout-item md-size-33 md-medium-size-33 md-small-size-100 md-xsmall-size-100"
+        >
+          <font-awesome-icon icon="keyboard" size="6x" />
+          <ul>
+            <li>RabbitMQ</li>
+            <li>Android</li>
+            <li>Git</li>
+            <li>Linux System Admin</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -81,6 +116,15 @@ export default {
   position: relative;
   top: 100vh;
   background: white;
+  text-align: center;
+}
+
+.info-item {
+  padding: 15px;
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
 }
 
 .maxWidth960 {
