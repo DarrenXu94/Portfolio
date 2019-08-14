@@ -69,6 +69,26 @@
           </ul>
         </div>
       </div>
+      <section class="contact bg-dark">
+        <div class="container center">
+          <h3>Contact</h3>
+
+          <div class="md-layout">
+            <div class="icon-container md-layout-item md-size-40 md-medium-size-20"></div>
+            <div class="icon-container md-layout-item md-size-10 md-medium-size-30">
+              <a href="https://github.com/DarrenXu94">
+                <font-awesome-icon :icon="['fab','github']" size="5x" />
+              </a>
+            </div>
+            <div class="icon-container md-layout-item md-size-10 md-medium-size-30">
+              <a href="https://www.linkedin.com/in/darren-xu-profile/">
+                <font-awesome-icon :icon="['fab', 'linkedin']" size="5x" />
+              </a>
+            </div>
+            <div class="icon-container md-layout-item md-size-40 md-medium-size-20"></div>
+          </div>
+        </div>
+      </section>
       <footer>
         <p>Darren Xu © 2019</p>
       </footer>
@@ -152,6 +172,13 @@ footer {
 
 #showOnSmall {
   display: none !important;
+}
+
+.contact {
+  margin-bottom: 20px;
+  svg {
+    cursor: pointer;
+  }
 }
 @media only screen and (max-width: 600px) {
   #showOnSmall {
