@@ -33,7 +33,7 @@
           <h2>Technologies</h2>
         </div>
         <div
-          class="info-item md-layout-item md-size-33 md-medium-size-33 md-small-size-100 md-xsmall-size-100"
+          class="info-item md-layout-item md-size-33 md-medium-size-33 md-small-size-50 md-xsmall-size-100"
         >
           <font-awesome-icon icon="chalkboard-teacher" size="6x" />
           <ul>
@@ -45,7 +45,7 @@
           </ul>
         </div>
         <div
-          class="info-item md-layout-item md-size-33 md-medium-size-33 md-small-size-100 md-xsmall-size-100"
+          class="info-item md-layout-item md-size-33 md-medium-size-33 md-small-size-50 md-xsmall-size-100"
         >
           <font-awesome-icon icon="server" size="6x" />
           <ul>

@@ -1,6 +1,6 @@
 <template>
   <div class="projects md-layout">
-    <div class="md-layout-item main-raised md-size-80 md-elevation-3">
+    <div class="md-layout-item main-raised md-size-80 md-small-size-95 md-elevation-3">
       <div class="container">
         <div class="projects-content">
           <h2>Projects</h2>
