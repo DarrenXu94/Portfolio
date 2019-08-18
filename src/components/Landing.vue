@@ -9,17 +9,16 @@
       <h2>Info About Me</h2>
       <div class="md-layout align-center">
         <div class="md-layout-item md-size-33 md-medium-size-33 md-small-hide">
-          <md-icon id="large-size">computer</md-icon>
+          <font-awesome-icon icon="laptop-code" size="10x" />
         </div>
         <div
           class="md-layout-item md-size-66 md-medium-size-66 md-small-size-100 md-xsmall-size-100"
+          id="infoPara"
         >
           <p>
             Hi there,
             <br />
-            <br />My name is Darren and I'm enthusiastic about full stack development with experience in JavaScript and Python frameworks. I love delivering creative and exciting new projects that enrich people's lives! Learning and improving is an important motto I strive towards and am always open to new opporunities.
-            <br />
-            <br />I have a strong understanding of JavaScript with experience in both front end React applications and back end Node Express APIs.
+            <br />My name is Darren and I'm enthusiastic about full stack development. I love delivering creative and exciting new projects that enrich people's lives!
           </p>
         </div>
         <div id="showOnSmall" style="display:flex; width:100%;justify-content:center;">
@@ -104,6 +103,10 @@ export default {
 };
 </script>
 <style lang="scss">
+#infoPara {
+  font-size: 1.5rem;
+  line-height: normal;
+}
 .hero-text {
   button {
     background-color: white;
