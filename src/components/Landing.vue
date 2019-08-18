@@ -70,7 +70,7 @@
       </div>
       <section class="contact bg-dark">
         <div class="container center">
-          <h3>Contact</h3>
+          <h2>Contact</h2>
 
           <div class="md-layout">
             <div class="icon-container md-layout-item md-size-40 md-medium-size-20"></div>
