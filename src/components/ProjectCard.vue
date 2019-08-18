@@ -23,10 +23,10 @@
         <md-card-expand-content>
           <md-card-content>
             <div class="expansion-flex">
-              <a href>
+              <a :href="project.preview" v-if="project.preview">
                 <md-icon>web_asset</md-icon>&nbsp;Live page
               </a>
-              <a href>
+              <a :href="project.link" v-if="project.link">
                 <md-icon>code</md-icon>&nbsp;Code
               </a>
             </div>
@@ -69,6 +69,7 @@ export default {
     display: flex;
     align-items: center;
     text-decoration: none;
+    cursor: pointer;
   }
 }
 </style>
