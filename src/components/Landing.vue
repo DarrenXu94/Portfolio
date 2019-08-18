@@ -1,5 +1,5 @@
 <template>
-  <div class="section">
+  <div class="section" id="top">
     <div class="hero-text">
       <h1>Darren Xu</h1>
       <p>Software Developer</p>
@@ -97,7 +97,10 @@
 </template>
 <script>
 export default {
-  name: "landing"
+  name: "landing",
+  mounted: function() {
+    this.$scrollTo("#top", 1000, {});
+  }
 };
 </script>
 <style lang="scss">

@@ -1,5 +1,5 @@
 <template>
-  <div class="projects md-layout">
+  <div class="projects md-layout" id="top">
     <div class="md-layout-item main-raised md-size-80 md-small-size-95 md-elevation-3">
       <div class="container">
         <div class="about md-layout">
@@ -28,6 +28,9 @@ import experience from "@/assets/data/experience";
 
 export default {
   name: "about",
+  mounted: function() {
+    this.$scrollTo("#top", 1000, {});
+  },
   data() {
     return {
       experience: experience
