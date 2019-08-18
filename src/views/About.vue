@@ -54,6 +54,7 @@ export default {
     border: 0.3rem solid #05222f;
     z-index: 2;
     background-color: #fff;
+    object-fit: contain;
   }
   .experience-container {
     background: white;
